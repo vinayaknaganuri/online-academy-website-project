@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    	<title>Quiz</title> 
+        <link rel="stylesheet" href="quiz.css">
+	
+</head>
+<body>
+	<div class="div">
+		<div style="text-align: center; padding-top: 10px">
+		<label class="label1">	Assignment For <span class="html">HTML,CSS and Javascript  <span> </span></span></label>  
+		</div>
+		<br>
+		<br>
+
+<div>
+			
+<label class="qa1"> Q1. What does HTML stand for?</label><br><P>
+	<div class="input"> 
+<input type="radio" name="qustion1"> Hyper Text Makeup Language<br>
+<input type="radio" name="qustion1" id="correct1"> Hyper Text Markup Language<br>
+<input type="radio" name="qustion1"> Hyperlinks and Text Markup Language<br>
+<input type="radio" name="qustion1"> Home Tool Markup Language<br><br></P>
+</div>
+
+
+
+<label class="qa1">
+Q2: Which HTML element is used to define the title of a document?</label><br><P>
+	<div class="input">
+<input type="radio" name="qustion2"> meta<br>
+<input type="radio" name="qustion2"> head<br>
+<input type="radio" name="qustion2" id="correct2"> Title <br>
+<input type="radio" name="qustion2"> link<br><br></P>
+</div>
+
+
+<label class="qa1">
+Q3. What is the correct HTML element for inserting a line break?</label><br><P>
+	<div class="input">
+<input type="radio" name="qustion3"> break<br>
+<input type="radio" name="qustion3" id="correct3"> br<br>
+<input type="radio" name="qustion3"> lb<br>
+<input type="radio" name="qustion3" > newline <br><br></P>
+</div>
+
+<label class="qa1">
+Q4. Which HTML element is used to create a hyperlink?</label><br><P>
+	<div class="input">
+<input type="radio" name="qustion4"> link<br>
+<input type="radio" name="qustion4"> href<br>
+<input type="radio" name="qustion4" id="correct4"> a<br>
+<input type="radio" name="qustion4"> hyperlink<br><br></P>
+</div>
+
+<label class="qa1">
+Q5: How can you make a numbered list in HTML?</label><br><p>
+	<div class="input">
+<input type="radio" name="qustion5"> ul<br>
+<input type="radio" name="qustion5" id="correct5"> ol<br>
+<input type="radio" name="qustion5"> li<br>
+<input type="radio" name="qustion5"> dl<br><br></p>
+</div>
+
+
+<label class="qa1">
+Q6. What does CSS stand for?</label><br><P>
+	<div class="input">
+<input type="radio" name="qustion6"> creative Style Sheets<br>
+<input type="radio" name="qustion6" id="correct6"> cascading Style Sheets <br>
+<input type="radio" name="qustion6"> computer Style Sheets<br>
+<input type="radio" name="qustion6"> colorful Style Sheets<br><br></P>
+</div>
+
+
+<label class="qa1">
+Q7. Which HTML attribute is used to define inline styles?</label><br><P>
+	<div class="input">
+<input type="radio" name="qustion7"> styles<br>
+<input type="radio" name="qustion7"> font<br>
+<input type="radio" name="qustion7" id="correct7"> style<br>
+<input type="radio" name="qustion7"> class<br><br></P>
+</div>
+
+
+<label class="qa1">
+Q8. Which property is used to change the background color?</label><br><p>
+	<div class="input">
+<input type="radio" name="qustion8"> color<br>
+<input type="radio" name="qustion8"> bgcolor<br>
+<input type="radio" name="qustion8" id="correct8"> background-color<br>
+<input type="radio" name="qustion8"> background<br><br></p>
+</div>
+
+
+<label class="qa1">
+Q9. How do you create a function in JavaScript?<br></label><p>
+	<div class="input">
+<input type="radio" name="qustion9" id="correct9"> function myFunction()<br>
+<input type="radio" name="qustion9"> function:myFunction()<br>
+<input type="radio" name="qustion9"> function = myFunction()<br>
+<input type="radio" name="qustion9"> myFunction function()<br><br></p>
+</div>
+
+
+<label class="qa1">
+Q10. How do you call a function named "myFunction"?</label><br><p>
+	<div class="input">
+<input type="radio" name="qustion10"> call function myFunction()<br>
+<input type="radio" name="qustion10"> call myFunction()<br>
+<input type="radio" name="qustion10" id="correct10"> myFunction()<br>
+<input type="radio" name="qustion10"> call.myFunction()<br><br></p>
+</div>
+
+ <div>
+ 	<center>
+		<input  class="submit" type="submit" name="submit" value="Submit" onclick="result()">
+	</center>
+</div>
+
+<script type="text/javascript">
+	
+	function result()
+	{
+		//body...
+		var score=0;
+		if (document.getElementById('correct1').checked) {
+
+			score++;
+
+		}
+
+
+
+		if (document.getElementById('correct2').checked) {
+
+			score++;
+			
+		}
+
+
+		if (document.getElementById('correct3').checked) {
+
+			score++;
+			
+		}
+
+
+		if (document.getElementById('correct4').checked) {
+
+			score++;
+			
+		}
+
+		if (document.getElementById('correct5').checked) {
+
+			score++;
+			
+		}
+
+		if (document.getElementById('correct6').checked) {
+
+			score++;
+			
+		}
+
+		if (document.getElementById('correct7').checked) {
+
+			score++;
+			
+		}
+
+
+		if (document.getElementById('correct8').checked) {
+
+			score++;
+			
+		}
+
+		if (document.getElementById('correct9').checked) {
+
+			score++;
+			
+		}
+
+		if (document.getElementById('correct10').checked) {
+
+			score++;
+			
+		}
+		
+		 
+
+		alert("your score is:"+score);
+
+		
+	}
+</script>
+
+</div>
+</body>
+</html>

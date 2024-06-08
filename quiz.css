@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding-left: 20px;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+   background:#000;
+    color: white;
+    font-family: times;
+
+}
+h1
+{
+	font-family: time;
+	font-size: 95px;
+}
+.html
+{
+	font-family: 'Times New Roman', Times, serif;
+	color: red;
+
+}
+.label1{
+	font-size: 55px;
+	border:  solid  ;
+
+}
+
+.submit
+{
+	font-size: 35px;
+	padding-left: 5px;
+	font-family: initial;
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.qa1
+{
+	 color: currentColor; 
+	font-size: 25px;
+	padding-left: 45px;
+}
+
+.input{
+	padding-left: 75px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+
+.submit{
+	border-radius: 10px;
+	border: solid 5px 4px;
+}
